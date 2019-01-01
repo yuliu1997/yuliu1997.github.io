@@ -53,8 +53,8 @@
                 }();
             n(2);
             var r = {
-                    title: "如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作!",
-                    btnText: "打赏支持"
+                    title: "Leory Go'n'Fight!",
+                    btnText: "Leory"
                 },
                 // d = document.body,
                 d = document.getElementById('donation_div'),
@@ -68,7 +68,7 @@
                     return i(t, [{
                         key: "render",
                         value: function () {
-                            var t = '\n      <div class="donate-modal-background">\n        <div class="donate-modal">\n          <p class="donate-quote">\n            <i class="donate-quote-left"></i>\n            <span class="donate-quote-word">' + this.options.title + '</span>\n            <i class="donate-quote-right"></i>\n          </p>\n          <div class="donate-tab">\n            <a href="javascript:;" class="donate-wechat active" data-index="0">微信</a>\n            <a href="javascript:;" class="donate-alipay" data-index="1">支付宝</a>\n            <img src="' + this.options.wechatImage + '" alt="wechat" class="donate-image active">\n            <img src="' + this.options.alipayImage + '" alt="alipay" class="donate-image">\n          </div>\n        </div>\n      </div>\n    ',
+                            var t = '\n      <div class="donate-modal-background">\n        <div class="donate-modal">\n          <p class="donate-quote">\n            <i class="donate-quote-left"></i>\n            <span class="donate-quote-word">' + this.options.title + '</span>\n            <i class="donate-quote-right"></i>\n          </p>\n          <div class="donate-tab">\n            <a href="javascript:;" class="donate-wechat active" data-index="0">六</a>\n            <a href="javascript:;" class="donate-alipay" data-index="1">六</a>\n            <img src="' + this.options.wechatImage + '" alt="wechat" class="donate-image active">\n            <img src="' + this.options.alipayImage + '" alt="alipay" class="donate-image">\n          </div>\n        </div>\n      </div>\n    ',
                                 e = '\n      <a href="javascript:;" class="donate-btn"><i class="donate-qrcode"></i>' + this.options.btnText + "</a>\n    ";
                             this.el && (this.el.innerHTML = e), this.modal = document.createElement("div"), this.modal.innerHTML = t, this.modal.id = "donate-modal-container", d.appendChild(this.modal)
                         }
