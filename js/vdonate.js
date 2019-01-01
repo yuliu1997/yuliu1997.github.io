@@ -54,7 +54,7 @@
             n(2);
             var r = {
                     title: "Leory Go'n'Fight!",
-                    btnText: "Leory"
+                    btnText: "捐赠支持"
                 },
                 // d = document.body,
                 d = document.getElementById('donation_div'),
